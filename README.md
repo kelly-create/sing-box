@@ -42,14 +42,14 @@
 
 # 文档
 
-安装及使用：https://233boy.com/sing-box/sing-box-script/
+安装及使用：https://kelly-create.com/sing-box/sing-box-script/
 
 # 帮助
 
 使用：`sing-box help`
 
 ```
-sing-box script v1.0 by 233boy
+sing-box script v1.0 by kelly-create
 Usage: sing-box [options]... [args]...
 
 基本:
@@ -109,6 +109,6 @@ Usage: sing-box [options]... [args]...
    h, help                                         显示此帮助界面
 
 谨慎使用 del, ddel, 此选项会直接删除配置; 无需确认
-反馈问题) https://github.com/233boy/sing-box/issues
-文档(doc) https://233boy.com/sing-box/sing-box-script/
+反馈问题) https://github.com/kelly-create/sing-box/issues
+文档(doc) https://kelly-create.com/sing-box/sing-box-script/
 ```
