@@ -1454,7 +1454,7 @@ url_qr() {
             
             # 2. 生成终端二维码 (直接运行，因为 main 函数里已经强制安装了)
             if [[ $(type -P qrencode) ]]; then
-                qrencode -t ANSI "${is_url}"
+                qrencode -t ANSIUTF8 -l L -k "${is_url}"
             else
                 # 万一安装失败的兜底提示
                 msg err "qrencode 未安装，无法在终端显示二维码。"
